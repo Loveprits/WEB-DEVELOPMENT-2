@@ -24,39 +24,42 @@ require_once 'includes/header.php'
  
   <div class="form-group">
   <label for="DateofBirth">Date of Birth</label>
-    <input id="datepicker" width="276" />
-    <script>
-        $('#datepicker').datepicker({
-            uiLibrary: 'bootstrap4'
-        });
-    </script>
+  <p><input type="text" id="datepicker"></p>
     </div>
     
- 
-  <div class="form-group">
-  <label for="Specialty">Specialty</label>
-  <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-  <label class="form-check-label" for="defaultCheck1">
-  Database Admin
-  </label>
-  </div>
+<div class="row">
+<label for="exampleFormControlSelect1">Specialty</label>
+<div class="col">
+     <select class="form-control" id="Specialty">
+      <option selected>Choose...</option>
+      <option>Database Admin</option>
+      <option>Software Developer</option>
+      <option>Web Administrator</option>
+    </select>
+</div>
   
+<div class="col">
+   <select class="form-control" id="Specialty">
+      <option selected>Choose...</option>
+      <option>Database Admin</option>
+      <option>Software Developer</option>
+      <option>Web Administrator</option>
+    </select>
+</div>
+    
+<div class="col">
+    <select class="form-control" id="Specialty">
+      <option selected>Choose...</option>
+      <option>Database Admin</option>
+      <option>Software Developer</option>
+      <option>Web Administrator</option>
+    </select>
+</div>
 
-  <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-  <label class="form-check-label" for="defaultCheck1">
-  Software Developer
-  </label>
-  </div>
+</div>
 
-  <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-  <label class="form-check-label" for="defaultCheck1">
-  Web Administrator
-  </label>
-  </div>
-  </div>
+
+<br>
 
   <div class="form-group">
     <label for="Email">Email Address </label>
@@ -67,7 +70,7 @@ require_once 'includes/header.php'
     <label for="contact">Contact Number</label>
     <input type="text" class="form-control" id="contact1" placeholder="Your Contact Number">
   </div>
-  
+   
  
   <br>
   <button type="button" class="btn btn-primary btn-lg btn-block">SUBMIT</button>
